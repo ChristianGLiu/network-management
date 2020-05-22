@@ -15,14 +15,11 @@ def meshNet():
 
     # Add controller configuration variables
     host_count = 4
-    switch_count = 4
     net = Mininet ( controller=RemoteController, link=TCLink)
-    links = []
-    switch_added = []
 
     info( '*** Adding controller\n' )
     # Modify controller IP and port to suit needs; add extra entries for multiple controllers
-    net.addController( 'c0' , controller=RemoteController, ip="192.168.247.129", port=6633)
+    net.addController( 'c0' , controller=RemoteController, ip="192.168.247.130", port=6633)
 
     info( '*** Adding hosts\n' )
     h1 = net.addHost("A", ip="192.168.10.1/24")
@@ -32,19 +29,19 @@ def meshNet():
     host_added = [h1, h2, h3, h4]
 
     info('*** Adding switch\n')
-    switches = [('s%s' % (s + 1)) for s in range(switch_count)]
-    for switch in switches:
-        s = net.addSwitch(switch)
-        switch_added.append(s)
+    s1 = net.addSwitch("s1")
+    s2 = net.addSwitch("s2")
+    s3 = net.addSwitch("s3")
+    s4 = net.addSwitch("s4")
+    switch_added = [s1, s2, s3, s4]
 
-    for l in list(combinations(switch_added, 2)):
-        links.append(l)
+    info('*** connecting switch after drop algorithm: s1-s3, s1-s4, s2-s4, s2-s4\n')
+    net.addLink(s1, s3, bw=10)
+    net.addLink(s2, s3, bw=10)
+    net.addLink(s1, s4, bw=10)
+    net.addLink(s2, s4, bw=10)
 
-    info('*** connecting switch\n')
-    for a, b in links:
-        net.addLink(a, b, bw=10)
-
-    info('*** connecting host\n')
+    info('*** connecting host with switch\n')
     for i in range(host_count):
         net.addLink(host_added[i], switch_added[i], bw=10)
 

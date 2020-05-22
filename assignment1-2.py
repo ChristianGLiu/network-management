@@ -19,7 +19,7 @@ def meshNet():
 
     info( '*** Adding controller\n' )
     # Modify controller IP and port to suit needs; add extra entries for multiple controllers
-    net.addController( 'c0' , controller=RemoteController, ip="192.168.247.129", port=6633)
+    net.addController( 'c0' , controller=RemoteController, ip="192.168.247.130", port=6633)
 
     info( '*** Adding hosts\n' )
     h1 = net.addHost("A", ip="192.168.10.1/24")
