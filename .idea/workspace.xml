@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3306baf-2cfa-4808-b20e-2247b16a53e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/6706_assign1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csci6706.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csci6706.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment1-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment1-1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment1-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment1-2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment1-3.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment1-3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment1-mesh.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment1-drop-algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1-3.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment1-new-design.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1-router.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,17 +28,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1bzZRXp4P3RZdnZcTp90gMM8PhB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/dnschain-master" />
+    <property name="last_opened_file_path" value="D:/github-blockchain-iot/IoT-and-Blockchain" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="SvnConfiguration">
@@ -51,21 +59,30 @@
       <workItem from="1589934190337" duration="2521000" />
       <workItem from="1590072376492" duration="1349000" />
       <workItem from="1590106070142" duration="1680000" />
-      <workItem from="1590179034411" duration="1401000" />
+      <workItem from="1590179034411" duration="2302000" />
+      <workItem from="1590257086255" duration="30000" />
+      <workItem from="1590276306544" duration="7000" />
+      <workItem from="1590352656020" duration="20000" />
+      <workItem from="1590353693682" duration="593000" />
+      <workItem from="1590506472247" duration="2286000" />
+      <workItem from="1590533922454" duration="1527000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="237" key="FileChooserDialogImpl" timestamp="1589761820083">
+    <state x="533" y="237" key="FileChooserDialogImpl" timestamp="1590257113398">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="533" y="237" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1589761820083" />
-    <state x="254" y="124" key="SettingsEditor" timestamp="1589639451181">
+    <state x="533" y="237" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1590257113398" />
+    <state x="254" y="124" key="SettingsEditor" timestamp="1590353854221">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="254" y="124" key="SettingsEditor/0.0.1504.963@0.0.1504.963" timestamp="1589639451181" />
+    <state x="254" y="124" key="SettingsEditor/0.0.1504.963@0.0.1504.963" timestamp="1590353854221" />
   </component>
 </project>
